@@ -12,15 +12,15 @@ function scrollToTop() {
       <!-- Logo / Présentation -->
       <div>
         <!-- <img src="../assets/LOGO.png" alt=""> -->
-        <h2 class="text-xl font-bold text-[#d8b38f]">Dreams_Pearls</h2>
+        <h2 class="text-xl font-bold text-[#fc6b07]">Dreams_Pearls</h2>
         <p class="mt-2 text-white-300 text-base">
-          Des cafés d’exception et des snacks faits maison, avec amour.
+          Des Perles d’exception et des colliers faits maison, avec amour.
         </p>
       </div>
 
       <!-- Horaires -->
       <div>
-        <h3 class="text-xl font-semibold mb-2 text-[#d8b38f]">Horaires</h3>
+        <h3 class="text-xl font-semibold mb-2 text-[#fc6b07]">Horaires</h3>
         <ul class="text-white-300 text-base">
           <li>Lundi - Vendredi : 7h - 20h</li>
           <li>Samedi : 8h - 18h</li>
@@ -30,7 +30,7 @@ function scrollToTop() {
 
       <!-- Contact -->
       <div>
-        <h3 class="text-xl font-semibold mb-2 text-[#d8b38f]">Contact</h3>
+        <h3 class="text-xl font-semibold mb-2 text-[#fc6b07]">Contact</h3>
         <ul class="text-white-300 text-base space-y-2">
           <li class="flex items-center gap-2"><img src="../assets/localisation.png" alt="local" class="w-5 h-5">
             Cotonou, Bénin</li>
@@ -43,7 +43,7 @@ function scrollToTop() {
 
       <!-- Réseaux sociaux -->
       <div>
-        <h3 class="text-xl font-semibold mb-2 text-[#d8b38f]">Suivez-nous</h3>
+        <h3 class="text-xl font-semibold mb-2 text-[#fc6b07]">Suivez-nous</h3>
         <div class="flex gap-8 mt-2 text-base">
           <a href="https://facebook.com" target="_blank">
             <img src="../assets/icons8-facebook-nouveau-50.png" alt="fb" class="w-8 h-8">
@@ -61,7 +61,7 @@ function scrollToTop() {
           <input type="email" placeholder="Votre email"
             class="w-full p-2 rounded bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#ee7721]" />
           <button
-            class="mt-2 w-full bg-[#d8b38f] text-white py-2 rounded transition">S'inscrire</button>
+            class="mt-2 w-full bg-[#fc6b07] text-white py-2 rounded transition">S'inscrire</button>
         </form>
 
       </div>
@@ -74,7 +74,7 @@ function scrollToTop() {
     </div>
 
     <button @click="scrollToTop"
-      class="fixed bottom-6 right-6 bg-[#d8b38f] text-white p-3 rounded-lg shadow-lg transition z-50">
+      class="fixed bottom-6 right-6 bg-[#fc6b07] text-white p-3 rounded-lg shadow-lg transition z-50">
       ↑
     </button>
   </footer>
